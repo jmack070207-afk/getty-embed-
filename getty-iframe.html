@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Getty Embed – Slideshow</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;padding:24px}
+    .wrap{max-width:900px;margin:0 auto}
+    .note{opacity:.8;font-size:.95rem;margin-bottom:12px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Getty Slideshow (Official Embed)</h1>
+    <p class="note">If you don't see the slideshow below, open this file via a local web server (not file://). See instructions beneath the embed.</p>
+
+    <!-- BEGIN: your Getty iframe embed (https explicit) -->
+    <div class="getty embed image" style="background-color:#fff;display:inline-block;font-family:Roboto,sans-serif;color:#a7a7a7;font-size:11px;width:100%;max-width:553px;">
+      <div style="padding:0;margin:0;text-align:left;">
+        <a href="https://www.gettyimages.com/detail/2184099558" target="_blank" style="color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;">Embed from Getty Images</a>
+      </div>
+      <div style="overflow:hidden;position:relative;height:0;padding:56.2387% 0 0 0;width:100%;">
+        <iframe src="https://embed.gettyimages.com/embed?assets=2184099558,973077510,2218671421,1301828962,644320084&et=vNwZmdEFTIhmGCHmRvofNA&tld=com&sig=5dMk1bdpEnMcm8Armop61JmPbRDB29p4WXP1VbFpUOc=&caption=true&ver=1" scrolling="no" frameborder="0" width="553" height="311" style="display:inline-block;position:absolute;top:0;left:0;width:100%;height:100%;margin:0;"></iframe>
+      </div>
+    </div>
+    <!-- END -->
+
+    <hr style="margin:24px 0"/>
+    <h2>If it still looks blank:</h2>
+    <ol>
+      <li><strong>Open via a local server</strong> (browsers sometimes block embeds from a <code>file://</code> URL). In this folder, run: <code>python -m http.server 8000</code> and visit <code>http://localhost:8000/getty-iframe.html</code>.</li>
+      <li><strong>Disable ad/privacy blockers</strong> for this page; they occasionally block embed domains.</li>
+      <li><strong>Use a site that allows iframes</strong> (Google Sites → Insert → Embed → Embed Code; WordPress → Custom HTML block). Docs/Canvas often strip embeds.</li>
+    </ol>
+  </div>
+</body>
+</html>
